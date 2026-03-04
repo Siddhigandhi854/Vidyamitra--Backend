@@ -18,7 +18,7 @@ class ProgressOverview(BaseModel):
 class ProgressTimelineItem(BaseModel):
     label: str
     type: str
-    score: int | None = None
+    score: Optional[int] = None
 
 
 class ProgressTimelineResponse(BaseModel):
